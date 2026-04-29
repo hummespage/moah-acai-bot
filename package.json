@@ -1,0 +1,17 @@
+{
+  "name": "moah-acai-bot",
+  "version": "1.0.0",
+  "description": "Bot WhatsApp Business para pedidos da Moah Açaí com Mercado Pago",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "uuid": "^11.0.5"
+  }
+}
